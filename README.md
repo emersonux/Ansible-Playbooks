@@ -2,4 +2,4 @@
 
 Distro suportada RHEL
 
-Em futuras versões adicionarei mais distros
+Em futuras versões adicionarei mais distros.
