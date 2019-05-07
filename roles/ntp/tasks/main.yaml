@@ -1,0 +1,16 @@
+---
+  - name: Instalar NTP
+    yum:
+      name: ntp
+      state: present
+
+  - name: Transferir arquivo template ntp
+    template: 
+      src: templates/template_conf.j2
+      dest: /etc/ntp.conf
+      owner: root
+      group: root
+      backup: yes
+    notify: 
+      - Restart_NTP
+...

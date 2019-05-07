@@ -1,0 +1,6 @@
+---
+  - hosts: rhel-like
+    become: yes
+    roles: 
+      - ntp
+...
