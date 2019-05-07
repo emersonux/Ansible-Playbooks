@@ -1,6 +1,6 @@
 ---
-  ntp_server1: # Insira o servidor
-  ntp_server2: # Insira o servidor
-  ntp_server3: # Insira o servidor
-  ntp_server4: # Insira o servidor
+  ntp_server1: "0.centos.pool.ntp.org iburst"
+  ntp_server2: "1.centos.pool.ntp.org iburst"
+  ntp_server3: "2.centos.pool.ntp.org iburst"
+  ntp_server4: "3.centos.pool.ntp.org iburst"
 ...
