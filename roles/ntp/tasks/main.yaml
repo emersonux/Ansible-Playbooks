@@ -1,8 +1,23 @@
 ---
-  - name: Instalar NTP
+  # Trecho da instalação, pode ser removido caso não haja necessidade
+  - name: Download para RHEL like
     yum:
       name: ntp
-      state: present
+      state: latest
+    when: ansible_pkg_mgr == 'yum'
+
+  - name: Download para SUSE like
+    zypper:
+      name: ntp
+      state: latest
+    when: ansible_pkg_mgr == 'zypper'
+
+  - name: Download para Debian like
+    apt:
+      name: ntp
+      state: latest
+    when: ansible_pkg_mgr == 'apt'
+  # Fim do trecho da instalação
 
   - name: Transferir arquivo template ntp
     template: 
