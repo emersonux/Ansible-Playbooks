@@ -1,5 +1,6 @@
 # Playbook para Instalação e configuração do NTP
 
-Distro suportada RHEL
+## CUIDADO
+Instalação dos serviços em teste.
 
-Em futuras versões adicionarei mais distros.
+Necessário ultimo teste na distro SUSE. 

@@ -27,5 +27,6 @@
       group: root
       backup: yes
     notify: 
-      - Restart_NTP
+      - Restart_NTP_RHEL
+      - Restart_NTP_Debian_SUSE
 ...
