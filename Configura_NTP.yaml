@@ -1,5 +1,5 @@
 ---
-  - hosts: rhel-like
+  - hosts: all
     become: yes
     roles: 
       - ntp

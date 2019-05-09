@@ -1,4 +1,5 @@
 ---
+  # Servidores NTP publicos.
   ntp_server1: "0.centos.pool.ntp.org iburst"
   ntp_server2: "1.centos.pool.ntp.org iburst"
   ntp_server3: "2.centos.pool.ntp.org iburst"

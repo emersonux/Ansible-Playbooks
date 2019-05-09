@@ -1,6 +1,8 @@
 ---
-  ntp_server1: # Insira o servidor
-  ntp_server2: # Insira o servidor
-  ntp_server3: # Insira o servidor
-  ntp_server4: # Insira o servidor
+  # Adicione os servidores NTP que utiliza nestas variaveis.
+  # Caso não utilize algo especifico serão utilizados os servidores das variaveis defaults.
+  ntp_server1:
+  ntp_server2:
+  ntp_server3:
+  ntp_server4:
 ...
