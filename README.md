@@ -1,6 +1,10 @@
 # Playbook para Instalação e configuração do NTP
 
-## CUIDADO
-Instalação dos serviços em teste.
+O mesmo pode ser utilizado em distros RHEL, Debian e Suse like.
 
-Necessário ultimo teste na distro SUSE. 
+Instala e configura o NTP. 
+
+## Observações.
+Caso necessite de mais configurações verifique o arquivo de template, pois trata-se do conf.
+
+Caso tenha tenha outros servidores de NTP verifique o arquivo "vars/main.yaml", pois este sobrepoe as variaveis padrão (defaults/main.yaml) que apontam para servidores ntp da internet.
